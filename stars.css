@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* body */
+body{
+	
+}
+.sunset{
+	background-image:linear-gradient(10deg, hsl(18,50%,50%) 5%,white 20%, hsl(198,100%,25%) 80%);
+	height: 750px;
+	width:850px;
+}
+.star{
+	background-color:white;
+	height: 5px;
+	width: 5px;
+	position:relative;
+	border-radius:100%;
+	animation-name: twinkle;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes twinkle{
+	50%{
+		transform: scale(2);
+	}
+}
+.placement-1{
+	top:20px;
+	left:30px;
+	animation-duration: 1s;
+	background-color:lightblue;
+}
+.placement-2{
+	top:70px;
+	left:50px;
+	animation-duration: 1.25s;
+	background-color: hsla(49,76%,77%,1.00)
+}
+.placement-3{
+	top:30px;
+	left:90px;
+	animation-duration: 1.50s;
+	background-color:lightblue;
+}
+.placement-4{
+	top:45px;
+	left:55px;
+	animation-duration: 1.75s;
+}
+.placement-5{
+	top:80px;
+	left:75px;
+	animation-duration: 2s;
+}.placement-6{
+	top:110px;
+	left:250px;
+	animation-duration: 2.25s;
+	background-color:lightblue;
+}.placement-7{
+	top:20px;
+	left:200px;
+	animation-duration: 2.50s;
+	background-color:lightblue;
+}.placement-8{
+	top:55px;
+	left:300px;
+	animation-duration: 2.75s;
+}.placement-9{
+	top:20px;
+	left:400px;
+	animation-duration: 3s;
+}
+.placement-10{
+	top:20px;
+	left:500px;
+	animation-duration: 1s;
+	background-color: hsla(49,76%,77%,1.00)
+}.placement-11{
+	top:20px;
+	left:600px;
+	animation-duration: 1.25s;
+	background-color:lightblue;
+}
+.placement-12{
+	top:5px;
+	left:700px;
+	animation-duration: 1.50s;
+}
+.placement-13{
+	top:90px;
+	left:800px;
+	animation-duration: 1.75s;
+	background-color:lightblue;
+	background-color: hsla(49,76%,77%,1.00)
+}
+.placement-14{
+	top:40px;
+	left:750px;
+	animation-duration: 2s;
+}
+.placement-15{
+	top:45px;
+	left:723px;
+	animation-duration: 2.25s;
+	background-color:lightblue;
+}
+.placement-16{
+	top:45px;
+	left:650px;
+	animation-duration: 2.50s;
+	background-color: hsla(49,76%,77%,1.00)
+}
+.placement-17{
+	top:45px;
+	left:450px;
+	animation-duration: 2.75s;
+}.placement-18{
+	top:55px;
+	left:710px;
+	animation-duration: 3s;
+	background-color:lightblue;
+}
+.placement-19{
+	top:89px;
+	left:560px;
+	animation-duration: 2.5s;
+}
+.placement-20{
+	top:21px;
+	left:360px;
+	animation-duration: 1.25s;
+}
+.placement-21{
+	top:40px;
+	left:150px;
+	animation-duration: 1.50s;
+	background-color:lightblue;
+}
+.placement-22{
+	top:65px;
+	left:760px;
+	animation-duration: 1.75s;
+}
+.placement-23{
+	top:80px;
+	left:460px;
+	animation-duration: 2s;
+	background-color:lightblue;
+}
+.placement-24{
+	top:20px;
+	left:225px;
+	animation-duration: 2.25s;
+	background-color: hsla(49,76%,77%,1.00)
+}
+.placement-25{
+	top:32px;
+	left:350px;
+	animation-duration: 2.50s;
+}
